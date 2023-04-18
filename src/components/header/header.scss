@@ -1,0 +1,22 @@
+.header {
+    background-color: rgb(42, 1, 78);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+
+    
+}
+
+
+
+@media (max-width: 650px) {
+    .header {
+        padding: 5px 10px;
+        display: flex;
+
+       
+    }
+        
+}

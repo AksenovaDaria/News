@@ -1,0 +1,40 @@
+.menu {
+    
+    display: flex;
+        flex-direction: column;
+        padding: 5px;
+
+        .menu-category {
+                cursor: pointer;
+                text-decoration: none;
+                color: black;
+                transition: .3s all;
+                padding-bottom: 2px;
+                border-bottom: 1px solid transparent;
+                
+                &:hover {
+                        border-color: black;
+                    }
+
+                    
+            }
+}
+
+
+
+
+
+
+
+@media (min-width: 650px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+
+    }
+
+
+
+}

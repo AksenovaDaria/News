@@ -1,0 +1,29 @@
+.text {
+    padding: 15px 0;
+}
+
+.title {
+    padding: 10px 5px;
+    font-weight: bold;
+    text-decoration: none;
+        font-size: 20px;
+}
+
+.home {
+
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 0;
+    width: 110px;
+    background-color: white;
+    border: 0.2px solid rgb(129, 127, 127);
+    padding: 10px;
+    border-radius: 20%;
+}
+
+.link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}

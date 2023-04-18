@@ -1,0 +1,31 @@
+.but {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .next,
+.previous {
+    background-color: white;
+    border: 0.2px solid rgb(129, 127, 127);
+    padding: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+
+}
+
+.next {
+    grid-column: 2;
+
+    margin-left: auto;
+    margin-right: 0;
+    width: 100px;
+}
+
+.previous {
+    grid-column: 1;
+
+
+    width: 100px;
+}
+
+}
+

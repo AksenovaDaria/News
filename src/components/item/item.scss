@@ -1,0 +1,54 @@
+
+
+.firsttitle {
+    padding: 10px 5px;
+
+    .title {
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+    
+        }
+}
+
+img {
+    width: 100%;
+}
+
+.text {
+    padding-bottom: 10px;
+}
+
+
+
+.date {
+    text-align: right;
+}
+
+@media (min-width: 650px) {
+    .forflex {
+        margin: auto;
+
+        display: grid;
+        grid-template-columns: 40% 60%;
+img {
+        grid-column: 1;
+        width: 100%;
+    }
+
+    .text {
+        grid-column: 2;
+        text-align: justify;
+        padding-left: 10px;
+    }
+        
+
+        
+    }
+       
+
+
+
+
+}

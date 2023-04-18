@@ -1,0 +1,56 @@
+.form {
+    width: auto;
+    align-items: end;
+    margin-right: 0;
+    margin-left: auto;
+.input {
+        border: none;
+        outline: none;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50px 0 0 50px;
+        text-align: center;
+        cursor: text;
+    }
+   
+        .submit-button {
+            border: none;
+            outline: none;
+            background-color: white;
+            padding: 5px 10px 5px 5px;
+            border-radius: 0 50px 50px 0;
+            cursor: pointer;
+            background: white;
+            border-left: 1px solid black;
+    
+            &:hover {
+                    background-color: rgb(217, 200, 233);
+                }
+    
+        }
+
+                
+}
+
+ 
+
+ 
+
+ 
+
+
+@media (max-width: 650px) {
+
+        .input {
+            width: 90px;
+            font-size: 12px;
+        }
+
+       
+    
+
+         .submit-button {
+             width: 50px;
+             font-size: 12px;
+         }
+}

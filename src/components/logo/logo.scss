@@ -1,0 +1,26 @@
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    grid-column: 1;
+    margin-right: auto;
+    margin-left: 0;
+    color: white;
+
+    transition: 1s;
+        /* Время эффекта */
+        text-align: center;
+
+        &:hover {
+                transform: scale(1.1);
+                /* Увеличиваем масштаб */
+            }
+}
+
+@media (max-width: 650px) {
+    
+
+    .logo {
+        font-size: 18px;
+    }
+}
